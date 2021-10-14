@@ -1,0 +1,234 @@
+/* header nav */
+.header {
+   margin-top: 10px;
+   margin-right: 10px;
+   margin-left: 10px;
+   display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(207, 207, 207);
+    background-image: url(img/background\ nav.gif);
+    background-size: 100%;
+    border-radius: 100px;
+    border: 6px solid black;
+
+}
+
+.anav {
+  font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 0 rgb(0, 181, 253);
+    transition: ease-out .5s;
+    font-size: 1rem;
+    outline: none;
+    font-size: 20px;
+    padding: 20px;
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.anav:hover {
+    box-shadow: inset 0px 0px 0px 100px rgb(241, 241, 6);
+    transition: ease-out .5s;
+ 
+}
+
+
+
+/* body */
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(img/backgroundbody.gif);
+    background-size: 103%;
+}
+
+.saison3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 30px;
+    border: 1rem solid;
+    border-color: rgb(54, 54, 255);
+    justify-content: center;
+    padding-right: 290px;
+    padding-left: 290px;
+}
+
+.TitreS3{
+    font-size: 21px;
+    background-color: rgb(51, 51, 255);
+    border-radius: 20px;
+    border: 4px solid aqua;
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction:row-reverse;
+}
+
+.LeJeu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 30px;
+    border: 1rem solid;
+    border-color: rgb(255, 54, 54);
+    padding-right: 290px;
+    padding-left: 290px;
+}
+
+.TitreJeu{
+    font-size: 21px;
+    background-color: rgb(255, 54, 54);
+    border-radius: 20px;
+    border: 4px solid rgb(255, 145, 0);
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.personnages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 30px;
+    border: 1rem solid;
+    border-color: rgb(173, 84, 0);
+    padding-right: 290px;
+    padding-left: 290px;
+}
+
+.TitrePerso{
+    font-size: 21px;
+    background-color: rgb(182, 90, 4);
+    border-radius: 20px;
+    border: 4px solid rgb(0, 99, 16);
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.MiniWiki{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 30px;
+    border: 1rem solid;
+    border-color: rgb(255, 251, 21);
+    padding-right: 290px;
+    padding-left: 290px;
+}
+
+.WikiTitre{
+    font-size: 21px;
+    background-color: rgb(255, 251, 8);
+    border-radius: 20px;
+    border: 4px solid rgb(255, 115, 0);
+    color: rgb(0, 0, 0);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  inpute[type=fname] {
+      text-align: center;
+      }
+  
+  
+  
+    .formu {
+    border-radius: 5px;
+    background-color: #f2f2f2bb;
+    padding: 10px;
+margin-top: 100px;
+width: 100%;
+display: flex;
+justify-content: center;
+margin-bottom: 40px;
+  }
+
+/* aside */
+
+
+aside {
+    border: 4px solid rgb(0, 0, 0);
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.rowasideinfo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
