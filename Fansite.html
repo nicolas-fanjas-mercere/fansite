@@ -11,10 +11,10 @@
     <header>
         <nav class="header">
             <img class="konologo" src="img/Logonav.png" width="400px" height="300">
-            <a class="anav" href="">Actu</a>
-            <a class="anav" href="">Event</a>
-            <a class="anav" href="">Anecdote</a>
-            <a class="anav" href="">Personnages</a>
+            <a class="anav" href="#saison3">Actu</a>
+            <a class="anav" href="#lejeu">Event</a>
+            <a class="anav" href="#wiki">Anecdote</a>
+            <a class="anav" href="#perso">Personnages</a>
             <a class="anav" href="">Contacte</a>
         </nav>
     </header>
@@ -22,23 +22,35 @@
         <aside>
             <ul class="infokono">
                 Lien Offi
-                <li>Light Novel Site (JP)</li>
-                <li> Light Novel Site (EN)</li>
-                <li>Light Novel Site (FR)</li>
+                <a href="http://konosuba.com/">
+                    <li>Light Novel Site (JP)</li>
+                </a>
+                <a href="http://konosuba.com/">
+                    <li> Light Novel Site (EN)</li>
+                </a>
+                <a href="http://konosuba.com/">
+                    <li>Light Novel Site (FR)</li>
+                </a>
             </ul>
 
             <ul class="infokono2">
                 Anime
-                <li>Season 1 Site (JP)</li>
-                <li> Season 2 Site (JP)</li>
-                <li>Movie Site (JP) (FR)</li>
+                <a href="http://konosuba.com/">
+                    <li>Season 1 Site (JP)</li>
+                </a>
+                <a href="http://konosuba.com/">
+                    <li> Season 2 Site (JP)</li>
+                </a>
+                <a href="http://konosuba.com/">
+                    <li>Movie Site (JP) (FR)</li>
+                </a>
             </ul>
 
 
             <ul class="infokono3">
                 Jeu
-                <li>KonoSuba PS4/PS Vita game (JP)</li>
-                <li>fantastic day</li>
+                <a href="http://konosuba.com/"><li>KonoSuba PS4/PS Vita game (JP)</li>   </a>
+                <a href="http://konosuba.com/"> <li>fantastic day</li>   </a>
             </ul>
 
             <img src="img/Aside.gif">
@@ -47,7 +59,7 @@
         <div class="container">
             <div class="saison3">
                 <div class="TitreS3">
-                    <p>Saison 3?</p>
+                    <p id="saison3">Saison 3?</p>
                 </div>
                 <p>Personne n'est d'accord pour ce qui est de la date de sortit de la prochaine saison<br>
                     de notre anime préféré. De notre coté on pense qu'il est préférable de faire une<br>
@@ -60,7 +72,7 @@
 
             <div class="LeJeu">
                 <div class="TitreJeu">
-                    <p>Le Jeu :</p>
+                    <p id="lejeu">Le Jeu:</p>
                 </div>
                 <p>Les fan les plus ardus de kunosuba n'ont qu'un seul moyen de continuer<br>
                     a voir leurs personnage favoris, et c'est Kunosuba : fantastic days! Ce jeu<br>
@@ -78,7 +90,7 @@
             </div>
             <div class="personnages">
                 <div class="TitrePerso">
-                    <p>personnages</p>
+                    <p id="perso">personnages</p>
                 </div>
                 <p>Cliquez pour acceder au wiki !</p>
                 <div>
@@ -94,7 +106,7 @@
             </div>
             <div class="MiniWiki">
                 <div class="WikiTitre">
-                    <p>Mini wiki</p>
+                    <p id="wiki">Mini wiki</p>
                 </div>
                 <p>Kono Subarashii Sekai ni Shukufuku wo !<br>
                     (この素晴らしい世界に祝福を!||lit. "Donnez des bénédictions à ce monde merveilleux !"),<br>
@@ -114,34 +126,52 @@
                 <form action="action_page.php">
 
                     <label for="fname">Prénom</label>
-                    <input type="text" id="prenom" name="Bébert" placeholder="Bébert">
+                    <input type="text" id="prenom" name="Bébert" placeholder="Kazuma">
 
                     <label for="lname">Nom</label>
-                    <input type="text" id="nom" name="Dupont" placeholder="Dupont">
+                    <input type="text" id="nom" name="Dupont" placeholder="Le crack">
 
                     <label for="email">Email</label>
                     <input type="text" id="email" name="lesbg.du13@enY.fr" placeholder="lesbg.du13@enY.fr">
 
 
                     <label for="subject">Message</label>
-                    <textarea id="subject" name="subject" placeholder="AHAHAHAHAHAHAHAHAHAHAHAAHAAHjtmahahahahahah"
+                    <textarea id="subject" name="subject" placeholder="EXPLOSIONNNNNNNNNNNNNNNNNNNN"
                         style="height:200px"></textarea>
 
-                    <input type="Envoyer" value="Envoyer">
+                    <input type="submit" value="Envoyer">
 
                 </form>
             </div>
-
-
-
         </div>
     </main>
+    <footer>
+        <div class="ul1">
+            Redirection
+            <ul>
+                <li><a href="#saison3">Actu</a></li>
+                <li><a href="#lejeu">Event</a></li>
+                <li><a href="#wiki">Wiki</a></li>
+                <li><a href="#perso">Personne</a></li>
+                <li><a href="formu">équipe</a></li>
+            </ul>
+        </div>
+        <div class="ul2">
+            <img src="img/instagram.png" width="100px" height="100px">
+            <img src="img/twitter.png" width="100px" height="100px">
+            <img src="img/facebook.png" width="100px" height="100px">
+        </div>
+        <div class="ul3">
+            Contact
+            <ul>
+                <li>Kono.fan@hotmail.fr</li>
+                <li>0624090201</li>
+                <li>67 route 3 marquis</li>
+            </ul>
+        </div>
 
+    </footer>
 
 </body>
 
 </html>
-
-Season 1 Site (JP)
-Season 2 Site (JP)
-Movie Site (JP)
